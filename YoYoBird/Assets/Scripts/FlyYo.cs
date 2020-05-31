@@ -24,6 +24,7 @@ public class FlyYo : MonoBehaviour
         }
     }
 
+    // This method is automatically called when we hit anything
     private void OnCollisionEnter2D(Collision2D collision)
     {
         gameManager.GameOver();

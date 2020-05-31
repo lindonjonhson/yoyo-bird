@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gameOverCanvas.SetActive(false);
         Time.timeScale = 1;
     }
     public void GameOver(){
